@@ -13271,7 +13271,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3000</span><span class="p">,</span> <span class="mi">3010</span><span class="p">):</span>
@@ -13312,7 +13312,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_texts</span> <span class="o">=</span> <span class="n">clean_pairs</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
@@ -13348,7 +13348,7 @@ Length of target_texts: (20000,)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">max_encoder_seq_length</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">input_texts</span><span class="p">)</span>
@@ -13403,7 +13403,7 @@ max length of target sentences: 68
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.preprocessing.text</span> <span class="k">import</span> <span class="n">Tokenizer</span>
@@ -13468,7 +13468,7 @@ shape of target_token_index: 29
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_encoder_tokens</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">input_token_index</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
@@ -13524,7 +13524,7 @@ num_decoder_tokens: 30
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">target_texts</span><span class="p">[</span><span class="mi">100</span><span class="p">]</span>
@@ -13540,7 +13540,7 @@ num_decoder_tokens: 30
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[0]:</div>
 
 
 
@@ -13557,7 +13557,7 @@ num_decoder_tokens: 30
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">decoder_input_seq</span><span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="p">:]</span>
@@ -13573,7 +13573,7 @@ num_decoder_tokens: 30
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[0]:</div>
 
 
 
@@ -13606,7 +13606,7 @@ num_decoder_tokens: 30
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.utils</span> <span class="k">import</span> <span class="n">to_categorical</span>
@@ -13725,7 +13725,7 @@ num_decoder_tokens: 30
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">SVG</span>
@@ -13838,7 +13838,7 @@ _________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">SVG</span>
@@ -13929,7 +13929,7 @@ ________________________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">state_h</span><span class="p">)</span>
@@ -13962,7 +13962,7 @@ Tensor(&#34;decoder_input_h:0&#34;, shape=(None, 256), dtype=float32)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">SVG</span>
@@ -14041,7 +14041,7 @@ ________________________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;shape of encoder_input_data&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">encoder_input_data</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
@@ -14076,7 +14076,7 @@ shape of decoder_target_data(20000, 68, 30)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;rmsprop&#39;</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">&#39;categorical_crossentropy&#39;</span><span class="p">)</span>
@@ -14285,7 +14285,7 @@ Epoch 50/50
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">seq_index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2100</span><span class="p">,</span> <span class="mi">2120</span><span class="p">):</span>
@@ -14415,7 +14415,7 @@ Spanish (pred):  estoy despiento
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_sentence</span> <span class="o">=</span> <span class="s1">&#39;I love you&#39;</span>
@@ -14497,7 +14497,7 @@ translated sentence is: tom esta consado
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nltk.translate.bleu_score</span> <span class="k">import</span> <span class="n">sentence_bleu</span>
@@ -14505,6 +14505,579 @@ translated sentence is: tom esta consado
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2000</span><span class="p">):</span>
     <span class="n">bleu_score</span> <span class="o">+=</span> <span class="n">sentence_bleu</span><span class="p">([</span><span class="n">seqs_target</span><span class="p">[</span><span class="n">i</span><span class="p">]],</span><span class="n">seqs_pred</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">weights</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
 <span class="n">bleu_score</span> <span class="o">=</span> <span class="n">bleu_score</span><span class="o">/</span><span class="mi">2000</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BLEU score:&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">bleu_score</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>BLEU score:0.20361515288238824
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/usr/local/lib/python3.6/dist-packages/nltk/translate/bleu_score.py:490: UserWarning: 
+Corpus/Sentence contains 0 counts of 2-gram overlaps.
+BLEU scores might be undesirable; use SmoothingFunction().
+  warnings.warn(_msg)
+/usr/local/lib/python3.6/dist-packages/nltk/translate/bleu_score.py:490: UserWarning: 
+Corpus/Sentence contains 0 counts of 3-gram overlaps.
+BLEU scores might be undesirable; use SmoothingFunction().
+  warnings.warn(_msg)
+/usr/local/lib/python3.6/dist-packages/nltk/translate/bleu_score.py:490: UserWarning: 
+Corpus/Sentence contains 0 counts of 4-gram overlaps.
+BLEU scores might be undesirable; use SmoothingFunction().
+  warnings.warn(_msg)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.-Bi-LSTM-instead-of-LSTM">6. Bi-LSTM instead of LSTM<a class="anchor-link" href="#6.-Bi-LSTM-instead-of-LSTM">&#182;</a></h2><h3 id="6.1-Bi-LSTM-Encoder-+-LSTM-Decoder">6.1 Bi-LSTM Encoder + LSTM Decoder<a class="anchor-link" href="#6.1-Bi-LSTM-Encoder-+-LSTM-Decoder">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.layers</span> <span class="k">import</span> <span class="n">Bidirectional</span><span class="p">,</span> <span class="n">Concatenate</span>
+<span class="kn">from</span> <span class="nn">keras.layers</span> <span class="k">import</span> <span class="n">Input</span><span class="p">,</span> <span class="n">LSTM</span><span class="p">,</span> <span class="n">Dense</span>
+
+<span class="n">latent_dim</span> <span class="o">=</span> <span class="mi">256</span>
+
+<span class="n">encoder_inputs</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_encoder_tokens</span><span class="p">),</span> 
+                       <span class="n">name</span><span class="o">=</span><span class="s1">&#39;encoder_inputs&#39;</span><span class="p">)</span>
+
+<span class="n">encoder_bilstm</span> <span class="o">=</span> <span class="n">Bidirectional</span><span class="p">(</span><span class="n">LSTM</span><span class="p">(</span><span class="n">latent_dim</span><span class="p">,</span> <span class="n">return_state</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+                                  <span class="n">dropout</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;encoder_lstm&#39;</span><span class="p">))</span>
+<span class="n">_</span><span class="p">,</span> <span class="n">forward_h</span><span class="p">,</span> <span class="n">forward_c</span><span class="p">,</span> <span class="n">backward_h</span><span class="p">,</span> <span class="n">backward_c</span> <span class="o">=</span> <span class="n">encoder_bilstm</span><span class="p">(</span><span class="n">encoder_inputs</span><span class="p">)</span>
+
+<span class="n">state_h</span> <span class="o">=</span> <span class="n">Concatenate</span><span class="p">()([</span><span class="n">forward_h</span><span class="p">,</span> <span class="n">backward_h</span><span class="p">])</span>
+<span class="n">state_c</span> <span class="o">=</span> <span class="n">Concatenate</span><span class="p">()([</span><span class="n">forward_c</span><span class="p">,</span> <span class="n">backward_c</span><span class="p">])</span>
+
+<span class="n">encoder_model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="n">encoder_inputs</span><span class="p">,</span> 
+                      <span class="n">outputs</span><span class="o">=</span><span class="p">[</span><span class="n">state_h</span><span class="p">,</span> <span class="n">state_c</span><span class="p">],</span>
+                      <span class="n">name</span><span class="o">=</span><span class="s1">&#39;encoder&#39;</span><span class="p">)</span>
+
+<span class="n">decoder_input_h</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">512</span><span class="p">,),</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder_input_h&#39;</span><span class="p">)</span>
+<span class="n">decoder_input_c</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">512</span><span class="p">,),</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder_input_c&#39;</span><span class="p">)</span>
+<span class="n">decoder_input_x</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_decoder_tokens</span><span class="p">),</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder_input_x&#39;</span><span class="p">)</span>
+
+<span class="c1"># set the LSTM layer</span>
+<span class="n">decoder_lstm</span> <span class="o">=</span> <span class="n">LSTM</span><span class="p">(</span><span class="mi">512</span><span class="p">,</span> <span class="n">return_sequences</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+                    <span class="n">return_state</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder_lstm&#39;</span><span class="p">)</span>
+<span class="n">decoder_lstm_outputs</span><span class="p">,</span> <span class="n">state_h</span><span class="p">,</span> <span class="n">state_c</span> <span class="o">=</span> <span class="n">decoder_lstm</span><span class="p">(</span><span class="n">decoder_input_x</span><span class="p">,</span> 
+                                                      <span class="n">initial_state</span><span class="o">=</span><span class="p">[</span><span class="n">decoder_input_h</span><span class="p">,</span> <span class="n">decoder_input_c</span><span class="p">])</span>
+
+<span class="c1"># set the dense layer</span>
+<span class="n">decoder_dense</span> <span class="o">=</span> <span class="n">Dense</span><span class="p">(</span><span class="n">num_decoder_tokens</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;softmax&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder_dense&#39;</span><span class="p">)</span>
+<span class="n">decoder_outputs</span> <span class="o">=</span> <span class="n">decoder_dense</span><span class="p">(</span><span class="n">decoder_lstm_outputs</span><span class="p">)</span>
+
+<span class="c1"># build the decoder network model</span>
+<span class="n">decoder_model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="n">decoder_input_x</span><span class="p">,</span> <span class="n">decoder_input_h</span><span class="p">,</span> <span class="n">decoder_input_c</span><span class="p">],</span>
+                      <span class="n">outputs</span><span class="o">=</span><span class="p">[</span><span class="n">decoder_outputs</span><span class="p">,</span> <span class="n">state_h</span><span class="p">,</span> <span class="n">state_c</span><span class="p">],</span>
+                      <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="6.2-Connect-the-encoder-and-decoder">6.2 Connect the encoder and decoder<a class="anchor-link" href="#6.2-Connect-the-encoder-and-decoder">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[0]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">encoder_input_x</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_encoder_tokens</span><span class="p">),</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;encoder_input_x&#39;</span><span class="p">)</span>
+<span class="n">decoder_input_x</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_decoder_tokens</span><span class="p">),</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;decoder_input_x&#39;</span><span class="p">)</span>
+
+<span class="c1"># connect encoder to decoder</span>
+<span class="n">encoder_final_states</span> <span class="o">=</span> <span class="n">encoder_model</span><span class="p">([</span><span class="n">encoder_input_x</span><span class="p">])</span>
+<span class="n">decoder_lstm_output</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">decoder_lstm</span><span class="p">(</span><span class="n">decoder_input_x</span><span class="p">,</span> <span class="n">initial_state</span><span class="o">=</span><span class="n">encoder_final_states</span><span class="p">)</span>
+<span class="n">decoder_pred</span> <span class="o">=</span> <span class="n">decoder_dense</span><span class="p">(</span><span class="n">decoder_lstm_output</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="n">encoder_input_x</span><span class="p">,</span> <span class="n">decoder_input_x</span><span class="p">],</span> 
+              <span class="n">outputs</span><span class="o">=</span><span class="n">decoder_pred</span><span class="p">,</span> 
+              <span class="n">name</span><span class="o">=</span><span class="s1">&#39;model_training&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">SVG</span>
+<span class="kn">from</span> <span class="nn">keras.utils.vis_utils</span> <span class="k">import</span> <span class="n">model_to_dot</span><span class="p">,</span> <span class="n">plot_model</span>
+
+<span class="n">SVG</span><span class="p">(</span><span class="n">model_to_dot</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">show_shapes</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">prog</span><span class="o">=</span><span class="s1">&#39;dot&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;svg&#39;</span><span class="p">))</span>
+
+<span class="n">plot_model</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span> <span class="n">show_shapes</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">to_file</span><span class="o">=</span><span class="s1">&#39;model_training.pdf&#39;</span>
+<span class="p">)</span>
+
+<span class="n">model</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Model: &#34;model_training&#34;
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+encoder_input_x (InputLayer)    (None, None, 28)     0                                            
+__________________________________________________________________________________________________
+decoder_input_x (InputLayer)    (None, None, 30)     0                                            
+__________________________________________________________________________________________________
+encoder (Model)                 [(None, 512), (None, 583680      encoder_input_x[0][0]            
+__________________________________________________________________________________________________
+decoder_lstm (LSTM)             [(None, None, 512),  1112064     decoder_input_x[0][0]            
+                                                                 encoder[1][0]                    
+                                                                 encoder[1][1]                    
+__________________________________________________________________________________________________
+decoder_dense (Dense)           (None, None, 30)     15390       decoder_lstm[1][0]               
+==================================================================================================
+Total params: 1,711,134
+Trainable params: 1,711,134
+Non-trainable params: 0
+__________________________________________________________________________________________________
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="6.3--Build--the--model">6.3  Build  the  model<a class="anchor-link" href="#6.3--Build--the--model">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;rmsprop&#39;</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">&#39;categorical_crossentropy&#39;</span><span class="p">)</span>
+
+<span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">([</span><span class="n">encoder_input_data</span><span class="p">,</span> <span class="n">decoder_input_data</span><span class="p">],</span>  <span class="c1"># training data</span>
+          <span class="n">decoder_target_data</span><span class="p">,</span>                       <span class="c1"># labels (left shift of the target sequences)</span>
+          <span class="n">batch_size</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">validation_split</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+
+<span class="n">model</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;seq2seqbonus.h5&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Train on 16000 samples, validate on 4000 samples
+Epoch 1/50
+16000/16000 [==============================] - 46s 3ms/step - loss: 0.7986 - val_loss: 0.7180
+Epoch 2/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.6046 - val_loss: 0.6221
+Epoch 3/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.5696 - val_loss: 0.5913
+Epoch 4/50
+16000/16000 [==============================] - 44s 3ms/step - loss: 0.5428 - val_loss: 0.5504
+Epoch 5/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.5215 - val_loss: 0.5280
+Epoch 6/50
+16000/16000 [==============================] - 44s 3ms/step - loss: 0.5069 - val_loss: 0.5116
+Epoch 7/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.4936 - val_loss: 0.4926
+Epoch 8/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.4824 - val_loss: 0.4842
+Epoch 9/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.4715 - val_loss: 0.4682
+Epoch 10/50
+16000/16000 [==============================] - 45s 3ms/step - loss: 0.4616 - val_loss: 0.4578
+Epoch 11/50
+16000/16000 [==============================] - 44s 3ms/step - loss: 0.4533 - val_loss: 0.4476
+Epoch 12/50
+16000/16000 [==============================] - 44s 3ms/step - loss: 0.4457 - val_loss: 0.4395
+Epoch 13/50
+16000/16000 [==============================] - 44s 3ms/step - loss: 0.4386 - val_loss: 0.4362
+Epoch 14/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.4323 - val_loss: 0.4262
+Epoch 15/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.4256 - val_loss: 0.4208
+Epoch 16/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.4200 - val_loss: 0.4171
+Epoch 17/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.4137 - val_loss: 0.4119
+Epoch 18/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.4085 - val_loss: 0.4072
+Epoch 19/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.4022 - val_loss: 0.4015
+Epoch 20/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3982 - val_loss: 0.4008
+Epoch 21/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3952 - val_loss: 0.3980
+Epoch 22/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3903 - val_loss: 0.3917
+Epoch 23/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3861 - val_loss: 0.3910
+Epoch 24/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3821 - val_loss: 0.3879
+Epoch 25/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3781 - val_loss: 0.3880
+Epoch 26/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3742 - val_loss: 0.3844
+Epoch 27/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3717 - val_loss: 0.3827
+Epoch 28/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3686 - val_loss: 0.3793
+Epoch 29/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3640 - val_loss: 0.3810
+Epoch 30/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3630 - val_loss: 0.3832
+Epoch 31/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3604 - val_loss: 0.3795
+Epoch 32/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3574 - val_loss: 0.3777
+Epoch 33/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3522 - val_loss: 0.3768
+Epoch 34/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3514 - val_loss: 0.3762
+Epoch 35/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3484 - val_loss: 0.3710
+Epoch 36/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3463 - val_loss: 0.3739
+Epoch 37/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3430 - val_loss: 0.3696
+Epoch 38/50
+16000/16000 [==============================] - 43s 3ms/step - loss: 0.3404 - val_loss: 0.3692
+Epoch 39/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3387 - val_loss: 0.3705
+Epoch 40/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3373 - val_loss: 0.3675
+Epoch 41/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3365 - val_loss: 0.3681
+Epoch 42/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3310 - val_loss: 0.3668
+Epoch 43/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3308 - val_loss: 0.3685
+Epoch 44/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3281 - val_loss: 0.3684
+Epoch 45/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3268 - val_loss: 0.3676
+Epoch 46/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3229 - val_loss: 0.3672
+Epoch 47/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3229 - val_loss: 0.3668
+Epoch 48/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3186 - val_loss: 0.3656
+Epoch 49/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3178 - val_loss: 0.3684
+Epoch 50/50
+16000/16000 [==============================] - 42s 3ms/step - loss: 0.3176 - val_loss: 0.3686
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="6.4--Make-predictions">6.4  Make predictions<a class="anchor-link" href="#6.4--Make-predictions">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reverse_input_char_index</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span> <span class="k">for</span> <span class="n">char</span><span class="p">,</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">input_token_index</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
+<span class="n">reverse_target_char_index</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span> <span class="k">for</span> <span class="n">char</span><span class="p">,</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">target_token_index</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
+
+<span class="k">def</span> <span class="nf">decode_sequence</span><span class="p">(</span><span class="n">input_seq</span><span class="p">):</span>
+    <span class="n">states_value</span> <span class="o">=</span> <span class="n">encoder_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">input_seq</span><span class="p">)</span>
+
+    <span class="n">target_seq</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">num_decoder_tokens</span><span class="p">))</span>
+    <span class="n">target_seq</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">target_token_index</span><span class="p">[</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="mf">1.</span>
+
+    <span class="n">stop_condition</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">temperature</span> <span class="o">=</span> <span class="mf">0.5</span>
+    <span class="n">decoded_sentence</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="k">while</span> <span class="ow">not</span> <span class="n">stop_condition</span><span class="p">:</span>
+        <span class="n">output_tokens</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">decoder_model</span><span class="o">.</span><span class="n">predict</span><span class="p">([</span><span class="n">target_seq</span><span class="p">]</span> <span class="o">+</span> <span class="n">states_value</span><span class="p">)</span>
+        <span class="n">output_tokens</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">output_tokens</span><span class="p">,</span> <span class="n">temperature</span><span class="p">)</span>
+        <span class="n">output_tokens</span> <span class="o">=</span> <span class="n">output_tokens</span><span class="o">/</span><span class="n">numpy</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">output_tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:])</span>
+        <span class="n">sampled_token_index</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">output_tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:])</span>
+
+        <span class="k">if</span> <span class="n">sampled_token_index</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> 
+            <span class="n">sampled_token_index</span> <span class="o">=</span> <span class="mi">1</span>
+        
+        <span class="n">sampled_char</span> <span class="o">=</span> <span class="n">reverse_target_char_index</span><span class="p">[</span><span class="n">sampled_token_index</span><span class="p">]</span>
+        <span class="n">decoded_sentence</span> <span class="o">+=</span> <span class="n">sampled_char</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">sampled_char</span> <span class="o">==</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="ow">or</span>
+           <span class="nb">len</span><span class="p">(</span><span class="n">decoded_sentence</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">max_decoder_seq_length</span><span class="p">):</span>
+            <span class="n">stop_condition</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="n">target_seq</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">num_decoder_tokens</span><span class="p">))</span>
+        <span class="n">target_seq</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">sampled_token_index</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.</span>
+
+        <span class="n">states_value</span> <span class="o">=</span> <span class="p">[</span><span class="n">h</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">decoded_sentence</span>
+
+<span class="k">for</span> <span class="n">seq_index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2100</span><span class="p">,</span> <span class="mi">2120</span><span class="p">):</span>
+    <span class="c1"># Take one sequence (part of the training set)</span>
+    <span class="c1"># for trying out decoding.</span>
+    <span class="n">input_seq</span> <span class="o">=</span> <span class="n">encoder_input_data</span><span class="p">[</span><span class="n">seq_index</span><span class="p">:</span> <span class="n">seq_index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="n">decoded_sentence</span> <span class="o">=</span> <span class="n">decode_sequence</span><span class="p">(</span><span class="n">input_seq</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;English:       &#39;</span><span class="p">,</span> <span class="n">input_texts</span><span class="p">[</span><span class="n">seq_index</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Canton (true): &#39;</span><span class="p">,</span> <span class="n">target_texts</span><span class="p">[</span><span class="n">seq_index</span><span class="p">][</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Canton (pred): &#39;</span><span class="p">,</span> <span class="n">decoded_sentence</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>-
+English:        im not tom
+Canton (true):  no soy tom
+Canton (pred):  no soy tam
+-
+English:        im not fat
+Canton (true):  no soy gorda
+Canton (pred):  no estoy cansada
+-
+English:        im not fat
+Canton (true):  no estoy gorda
+Canton (pred):  no estoy cansada
+-
+English:        im not old
+Canton (true):  no estoy viejo
+Canton (pred):  no estoy contento
+-
+English:        im not sad
+Canton (true):  no estoy triste
+Canton (pred):  no estoy cansada
+-
+English:        im not shy
+Canton (true):  yo no soy timido
+Canton (pred):  no estoy cansada
+-
+English:        im not shy
+Canton (true):  yo no soy timida
+Canton (pred):  no estoy cansada
+-
+English:        im patient
+Canton (true):  soy paciente
+Canton (pred):  soy caltante
+-
+English:        im psyched
+Canton (true):  estoy mentalizado
+Canton (pred):  estoy canfuso
+-
+English:        im reading
+Canton (true):  estoy leyendo
+Canton (pred):  estoy confundido
+-
+English:        im resting
+Canton (true):  estoy descansando
+Canton (pred):  estoy desando
+-
+English:        im selfish
+Canton (true):  soy egoista
+Canton (pred):  soy de erandia
+-
+English:        im serious
+Canton (true):  lo digo en serio
+Canton (pred):  soy muy cantante
+-
+English:        im serious
+Canton (true):  hablo en serio
+Canton (pred):  soy muy cantante
+-
+English:        im sloshed
+Canton (true):  estoy borracho
+Canton (pred):  estoy canfuso
+-
+English:        im so full
+Canton (true):  estoy tan lleno
+Canton (pred):  estoy tan feliz
+-
+English:        im starved
+Canton (true):  me muero de hambre
+Canton (pred):  estoy confunaido
+-
+English:        im starved
+Canton (true):  estoy muerto de hambre
+Canton (pred):  estoy confunaido
+-
+English:        im through
+Canton (true):  he terminado
+Canton (pred):  soy canadiense
+-
+English:        im too fat
+Canton (true):  yo soy demasiado gordo
+Canton (pred):  no soy demasiado gande
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="6.5-Translate-an-English-sentence-to-the-target-language">6.5 Translate an English sentence to the target language<a class="anchor-link" href="#6.5-Translate-an-English-sentence-to-the-target-language">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_sentence</span> <span class="o">=</span> <span class="s1">&#39;I love you&#39;</span>
+
+<span class="n">input_sequence</span><span class="p">,</span> <span class="n">input_index</span> <span class="o">=</span> <span class="n">text2sequences</span><span class="p">(</span><span class="n">max_encoder_seq_length</span><span class="p">,</span> 
+                                                      <span class="n">input_sentence</span><span class="p">)</span>
+
+<span class="n">input_x</span> <span class="o">=</span> <span class="n">onehot_encode</span><span class="p">(</span><span class="n">input_sequence</span><span class="p">,</span> <span class="n">max_encoder_seq_length</span><span class="p">,</span> <span class="n">num_encoder_tokens</span><span class="p">)</span>
+
+<span class="n">translated_sentence</span> <span class="o">=</span> <span class="n">decode_sequence</span><span class="p">(</span><span class="n">input_x</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;source sentence is: &#39;</span> <span class="o">+</span> <span class="n">input_sentence</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;translated sentence is: &#39;</span> <span class="o">+</span> <span class="n">translated_sentence</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>source sentence is: I love you
+translated sentence is: estos se toma
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="6.6-Evaluate-the-translation-using-BLEU-score">6.6 Evaluate the translation using BLEU score<a class="anchor-link" href="#6.6-Evaluate-the-translation-using-BLEU-score">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">decoder_target</span> <span class="o">=</span> <span class="n">target_texts</span><span class="p">[</span><span class="n">n_train</span><span class="o">-</span><span class="mi">2000</span><span class="p">:</span><span class="n">n_train</span><span class="p">]</span>
+<span class="n">sequence_target</span> <span class="o">=</span> <span class="p">[</span><span class="n">lines</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">for</span> <span class="n">lines</span> <span class="ow">in</span> <span class="n">decoder_target</span><span class="p">]</span>
+<span class="n">sequence_prediction</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_train</span><span class="o">-</span><span class="mi">1000</span><span class="p">,</span><span class="n">n_train</span><span class="p">):</span>
+    <span class="n">input_seq</span> <span class="o">=</span> <span class="n">encoder_input_data</span><span class="p">[</span><span class="n">i</span><span class="p">:</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="n">decoded_sentence</span> <span class="o">=</span> <span class="n">decode_sequence</span><span class="p">(</span><span class="n">input_seq</span><span class="p">)</span>
+    <span class="n">sequence_target</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">decoded_sentence</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+
+<span class="kn">from</span> <span class="nn">nltk.translate.bleu_score</span> <span class="k">import</span> <span class="n">sentence_bleu</span>
+<span class="n">bleu_score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
+    <span class="n">bleu_score</span> <span class="o">+=</span> <span class="n">sentence_bleu</span><span class="p">([</span><span class="n">seqs_target</span><span class="p">[</span><span class="n">i</span><span class="p">]],</span><span class="n">seqs_pred</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">weights</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+<span class="n">bleu_score</span> <span class="o">=</span> <span class="n">bleu_score</span><span class="o">/</span><span class="mi">1000</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BLEU score:&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">bleu_score</span><span class="p">))</span>
 </pre></div>
 
